@@ -1,0 +1,13 @@
+body {
+  -webkit-filter: blur(4px)
+  /*-webkit-transition: filter 0.4s ease;
+  -moz-transition: filter 0.4s ease;
+  -o-transition: filter 0.4s ease;
+  transition: filter 0.4s ease;*/
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  overflow: scroll
+}
