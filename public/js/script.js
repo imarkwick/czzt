@@ -1,5 +1,6 @@
 $(document).ready(function() {
-	  setTimeout(function() {
+
+	setTimeout(function() {
     $('#fullpage').css("-webkit-filter", "blur(5px)")
   }, 200);
   setTimeout(function() {
