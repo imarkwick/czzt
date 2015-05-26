@@ -41,4 +41,8 @@ img.circles:hover {
   -ms-transform: rotate(360deg);
   -webkit-transform: rotate(360deg);
 }
+
+section#words {
+  padding-top: 4rem;
+  text-align: center;
 }
