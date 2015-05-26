@@ -29,7 +29,7 @@ p#clare {
 }
 
 .circles{
-  margin-top: 13rem;
+  margin-top: 8rem;
   border-radius: 150px;
   -webkit-transition:-webkit-transform .8s ease-in-out;
   -ms-transition:-ms-transform .8s ease-in-out;
@@ -41,4 +41,12 @@ img.circles:hover {
   -ms-transform: rotate(360deg);
   -webkit-transform: rotate(360deg);
 }
+
+section#words {
+  padding-top: 4rem;
+  text-align: center;
+}
+
+section#arrowsdown {
+  margin-top: 2rem;
 }
