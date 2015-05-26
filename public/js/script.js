@@ -1,11 +1,11 @@
 $(document).ready(function() {
 
 	var hellos = setTimeout(function() {
-	  $("#hi").fadeIn(3000);
+	  $("#hi").fadeIn(1500);
 	  $("#hi").fadeOut(100);
-	  $("#im").fadeIn(5000);
+	  $("#im").fadeIn(2500);
 	  $("#im").fadeOut(100);
-	  $("#clare").fadeIn(7000);
+	  $("#clare").fadeIn(4000);
 	  1000
 	});
 

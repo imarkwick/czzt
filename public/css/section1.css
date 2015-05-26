@@ -10,6 +10,7 @@ nav {
   padding: 0;
 }
 
+
 p.intro {
   font-family: 'PT Sans',sans-serif;
   color: #fff;
@@ -25,4 +26,19 @@ p.intro {
 
 p#clare {
   letter-spacing: 2px;
+}
+
+.circles{
+  margin-top: 13rem;
+  border-radius: 150px;
+  -webkit-transition:-webkit-transform .8s ease-in-out;
+  -ms-transition:-ms-transform .8s ease-in-out;
+  transition:transform .8s ease-in-out
+}
+
+img.circles:hover {
+  transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+}
 }
