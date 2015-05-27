@@ -28,3 +28,7 @@ img.icons{
 	margin-right:1rem;
 	margin-left:1rem;
 }
+
+img.icons:hover{
+	opacity: .5;
+};
