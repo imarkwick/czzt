@@ -1,0 +1,30 @@
+h2#about-us{
+	font-family: 'Roboto', sans-serif;
+	font-size: 2em;
+	text-align: center;
+	margin-top: 20%;
+	margin-bottom: 3rem;
+	font-weight: bolder;
+	letter-spacing:.3rem;
+}
+
+p#about-blurb{
+	font-family: 'Roboto', sans-serif;
+	line-height: 3rem;
+	text-align: center;
+	letter-spacing: .1rem;
+}
+
+div#social-icons{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+img.icons{
+	height:6rem;
+	width: 6rem;
+	margin-top: 3rem;
+	margin-right:1rem;
+	margin-left:1rem;
+}
