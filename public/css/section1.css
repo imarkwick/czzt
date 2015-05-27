@@ -51,5 +51,3 @@ section#arrowsdown {
   cursor: pointer;
   display: block;
 }
-
-<div class="hit" style="width: 100%; height: 100%; z-index: 99999; top: 0px; left: 0px; position: absolute; cursor: pointer; display: block; background: rgba(255, 255, 255, 0);"></div>
