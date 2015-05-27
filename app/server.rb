@@ -1,11 +1,9 @@
 require 'sinatra'
-require 'sinatra/base'
 require 'pony'
 require 'byebug'
 
 set :public_dir, Proc.new { File.join(root, "..", "public") }
 
-class Application < Sinatra::Base
 get '/' do 
 	erb :index
 end
@@ -28,6 +26,4 @@ end
   }
 })
   redirect '/'
-end
-
 end
