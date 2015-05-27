@@ -1,0 +1,295 @@
+section#emailform{
+  margin-left: 8rem;
+  margin-right: 8rem;
+}
+
+#feedback-page{
+	text-align:center;
+}
+
+#form-main{
+	width:90%;
+	padding-top:25%;
+}
+
+
+input.feedback-input {
+  height: 55px;
+	font-family: 'Roboto', sans-serif;
+	color:#3c3c3c;
+  font-weight:100;
+	font-size: 18px;
+	border-radius: 0;
+	line-height: 22px;
+	background-color: #fbfbfb;
+	padding: 13px 13px 13px 54px;
+	margin-bottom: 10px;
+	width:100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+  	border: 1px solid rgba(0,0,0,0);
+}
+
+.feedback-input:focus{
+	background: #fff;
+	box-shadow: 0;
+	border: 3px solid #3498db;
+	color: #3498db;
+	outline: none;
+  	padding: 13px 13px 13px 54px;
+}
+
+.focused{
+	color:#30aed6;
+	border:#30aed6 solid 3px;
+}
+
+/* Icons ---------------------------------- */
+#name{
+	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#name:focus{
+	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+	background-size: 30px 30px;
+	background-position: 8px 5px;
+  background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#email{
+	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#email:focus{
+	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+	background-size: 30px 30px;
+  background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#comment{
+	background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+  padding-left: 50px;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    line-height: 150%;
+    resize:vertical;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+	background-color:white;
+}
+
+#button-blue{
+	float:left;
+	width: 100%;
+	border: #fbfbfb solid 1px;
+	cursor:pointer;
+	background-color:#708593;
+	opacity: .7;
+	color:white;
+	font-family: 'PT Sans', sans-serif;
+	font-size:30px;
+  letter-spacing:5;
+	padding-top:22px;
+	padding-bottom:22px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+  	margin-top:0px;
+}
+
+#button-blue:hover{
+	background-color: rgba(0,0,0,0);
+	color: white;
+  text-shadow: 3px 3px black;
+}
+	
+.submit:hover {
+	color: #3498db;
+}
+	
+.ease {
+	width: 0px;
+	height: 75px;
+	background-color: #fbfbfb;
+	-webkit-transition: .3s ease;
+	-moz-transition: .3s ease;
+	-o-transition: .3s ease;
+	-ms-transition: .3s ease;
+	transition: .3s ease;
+}
+
+.submit:hover .ease{
+  width:100%;
+  background-color:#89FFD9;
+  opacity: .7;
+}
+@media screen and (max-width: 480px) {
+#form-main {
+  padding-top: 5px;
+  }
+.feedback-input{
+  font-size: 10px;
+  margin-bottom: 5px;
+}
+textarea{
+  height:100px;
+}
+#button-blue{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+}
+
+@media only screen and (max-width: 580px) {
+	#form-div{
+		left: 3%;
+		margin-right: 3%;
+		width: 100%;
+		margin-left: 0;
+		padding-left: 3%;
+		padding-right: 3%;
+	}
+}
+
+@media screen and (max-width: 455px) {
+#form-main {
+  padding-top: 30%;
+  }
+.feedback-input{
+  font-size: 10px;
+  margin-bottom: 5px;
+}
+textarea{
+  height:150px;
+}
+#button-blue{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+}
+
+
+@-webkit-keyframes wavvy1 {
+  0% {
+  	fill:#000;
+  }
+  25% {
+    fill:orange;
+  }
+  50% {
+     fill:cadetblue;
+    -webkit-transform:scale(1.25);
+     -webkit-transform-origin:0 174.83px; 
+  }
+  75% {
+    fill:goldenrod;
+  }
+  100% {
+    fill:#000;
+  }
+}
+
+@-webkit-keyframes wavvy2 {
+  0% {
+    fill:aqua;
+  }
+  25% {
+    fill: blue;
+  }
+  50%{
+    fill:#000;
+  }
+  75% {
+    fill:midnightblue;
+  }
+  100% {
+    fill:aqua;
+    -webkit-transform:scale(1.25);
+    -webkit-transform-origin:0 174.83px;
+  }
+}
+
+@-webkit-keyframes wavvy3 {
+  0% {
+    fill: #000;
+  }
+  25% {
+    fill: slateblue;
+  }
+  50% {
+    fill: darkgreen;
+    -webkit-transform:scale(1.25);
+    -webkit-transform-origin:0 174.83px;
+  }
+  75% {
+    fill:#000;
+  }
+  100% {
+    fill:midnightblue;
+  }
+}
+
+@-webkit-keyframes wavvy4 {
+  0% {
+    fill:#000;
+  }
+  25% {
+    fill:teal;
+  }
+  50% {
+    fill:olivedrab;
+  }
+  75% {
+    fill:yellowgreen;
+  }
+  100% {
+    fill:indigo;
+    -webkit-transform:scale(1.25);
+    -webkit-transform-origin:0 174.83px;
+  }
+}
+
+.wrapper {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.poly1 {
+  -webkit-animation:wavvy1 7s linear infinite alternate;
+}
+
+.poly2 {
+  -webkit-animation:wavvy2 6s linear infinite alternate;
+}
+
+.poly3 {
+  -webkit-animation:wavvy3 4.5s linear infinite alternate;
+}
+
+.poly4 {
+  -webkit-animation:wavvy4 4.5s linear infinite alternate;
+}
+
+svg {
+  width: 100%;
+}
