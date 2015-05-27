@@ -1,0 +1,14 @@
+div.work-blocks{
+	text-align: center;
+}
+.imageblock {
+	height: 20rem;
+	width: 20rem;
+	border: 1px solid black; 
+	margin-bottom: 1rem;
+	text-align: center;
+}
+
+ul{
+	text-align: center;
+}
