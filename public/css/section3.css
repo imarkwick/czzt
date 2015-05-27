@@ -1,3 +1,8 @@
+h2#work-title{
+	text-align: center;
+	margin-bottom: 5rem;
+	margin-top: 5rem;
+}
 div.work-blocks{
 	text-align: center;
 }
