@@ -1,4 +1,5 @@
 require 'sinatra'
+require 'sinatra/base'
 require 'pony'
 require 'byebug'
 
