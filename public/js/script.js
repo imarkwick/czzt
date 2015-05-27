@@ -1,8 +1,7 @@
 $(document).ready(function() {
-
 	setTimeout(function() {
     $('#fullpage').css("-webkit-filter", "blur(5px)")
-  }, 200);
+  }, 1);
   setTimeout(function() {
     $('#fullpage').css("-webkit-filter", "blur(4px)")
   }, 400);
