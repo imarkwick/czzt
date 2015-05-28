@@ -29,16 +29,17 @@
 	
 	<div class="row section" id="two">
 		<a id=""name="section-two"></a>
-			<h2 id="about-us"> ABOUT US </h2>
-				<p id="about-blurb">Two London-based developers<br>
-
+			<header clss="row">
+				<h2 id="about-us" class="small-12 columns"> ABOUT US </h2>
+			</header>
+			<article class="row">
+				<p id="about-blurb" class="small-12 columns">Two London-based developers<br>
 					development takes a team effort<br>
 					no-one should code solo<br>
 					we create in collaboration<br>
 				 	motivated by ideas, not industry's <br>
 				 	turning concepts into products
-					</p>
-
+				</p>
 		<div class="row" id="social-icons">
 			<a href="https://github.com/imarkwick" target="_blank">
 				<img class="icons" src="images/github.png">
@@ -47,12 +48,14 @@
 				<img class="icons" src="images/twitter.png">
 			</a>
 		</div>
-</div>
+	</div>
 
 
 	<div class="row section" id="three">
 		<a name="section-three"></a>
-		<h2 id="work-title"> OUR WORK </h2>
+		<header class="row">
+			<h2 id="work-title" class="small-12 rows"> OUR WORK </h2>
+		</header>
 		<section class="our-work">
 			<ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-2">
 				<li>
@@ -81,29 +84,30 @@
 		</section>
 	</div>
 
-
 	<div class="section" id="four">
 		<a name="section-four"></a>
-		<h2 id="contact"> CONTACT US </h2>
+		<header class="row">
+			<h2 id="contact" class="small-12 columns"> CONTACT US </h2>
+		</header>
 		<section class="container" id="emailform">
-			<div id="form-main">
-          <div id="small-12 columns">
-            <form action="/" class="form" id="form1" method="post" name="form1">
-              <input class=
+			<div id="form-main" class="row">
+        <div id="small-12 columns">
+          <form action="/" class="form" id="form1" method="post" name="form1">
+            <input class=
               "validate[required,custom[onlyLetter],length[0,100]] feedback-input"
               id="name" name="name" placeholder="name" type="text"> <input class=
               "validate[required,custom[email]] feedback-input" id="email" name=
               "emailaddress" placeholder="email" type="text"> 
-              <textarea class="validate[required,length[6,300]] feedback-input"
+            <textarea class="validate[required,length[6,300]] feedback-input"
               id="comment" name="body" placeholder="message">
-              </textarea>
-              <div class="submit">
-                <button id="button-blue" type="submit" value="Send">S E N D</button>
-               </div>
-            </form>
-          </div>
+            </textarea>
+            <div class="submit">
+              <button id="button-blue" type="submit" value="Send">S E N D</button>
+            </div>
+          </form>
         </div>
-      </section>
-      <h3 id="number">czztdevelopment@gmail.com</h3>
+      </div>
+    </section>
+    <h3 id="number">czztdevelopment@gmail.com</h3>
 	</div>
 </div>
