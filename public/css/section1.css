@@ -27,7 +27,7 @@ p#clare {
   letter-spacing: 2px;
 }
 
-.circles{
+.circles {
   margin-top: 8rem;
   border-radius: 150px;
   -webkit-transition:-webkit-transform .8s ease-in-out;
@@ -50,4 +50,11 @@ section#arrowsdown {
   margin-top: 2rem;
   cursor: pointer;
   display: block;
+}
+
+@media only screen and (max-width: 1242px) {
+  
+  section#words {
+    font-size: 24px;
+  }
 }

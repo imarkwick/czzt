@@ -1,4 +1,4 @@
-h2#about-us{
+h2#about-us {
 	font-family: 'Roboto', sans-serif;
 	font-size: 2em;
 	text-align: center;
@@ -8,20 +8,20 @@ h2#about-us{
 	letter-spacing:.3rem;
 }
 
-p#about-blurb{
+p#about-blurb {
 	font-family: 'Roboto', sans-serif;
 	line-height: 3rem;
 	text-align: center;
 	letter-spacing: .1rem;
 }
 
-div#social-icons{
+div#social-icons {
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
 }
 
-img.icons{
+img.icons {
 	height:6rem;
 	width: 6rem;
 	margin-top: 3rem;
@@ -29,6 +29,18 @@ img.icons{
 	margin-left:1rem;
 }
 
-img.icons:hover{
+img.icons:hover {
 	opacity: .5;
+}
+
+@media only screen and (max-width: 1242px) {
+  
+  h2#about-us {
+    margin-bottom: 1rem;
+  }
+
+  img.icons {
+  	height: 4rem;
+  	width: 4rem;
+  }
 }
