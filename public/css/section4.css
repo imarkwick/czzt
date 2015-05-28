@@ -1,8 +1,17 @@
 h3#number {
-	float: left;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
 	color: #fff;
 	padding-left: .5rem;
-	font-size: 2rem;
+	font-size: 1rem;
 	bottom: 0;
 	opacity: .7;
+}
+
+h2#contact{
+	font-family: 'Roboto', sans-serif;
+	text-align: center; 
+	margin-bottom: 2rem;
+	padding-top: 4rem;
+	color:white;
 }
