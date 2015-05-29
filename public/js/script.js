@@ -29,6 +29,8 @@ $(document).ready(function() {
 
 	var joeVid = document.getElementById('joe');
 	var apparelVid = document.getElementById('engapparel');
+	var oodlsVid = document.getElementById('oodls');
+	var sleazeVid = document.getElementById('sleaze');
 	$(joeVid).hover(function() {
 		$(this).css('opacity', '.4');
 		$(this).get(0).pause();
@@ -49,6 +51,24 @@ $(document).ready(function() {
 		$(this).get(0).play();
 		$('#apparel-info').hide();
 	});
-
-
+	$(oodlsVid).hover(function() {
+		$(this).css('opacity', '.4');
+		$(this).get(0).pause();
+		$('#oodls-info').show();
+	});
+	$(oodlsVid).mouseout(function() {
+		$(this).css('opacity', '1');
+		$(this).get(0).play();
+		$('#oodls-info').hide();
+	});
+	$(sleazeVid).hover(function() {
+		$(this).css('opacity', '.4');
+		$(this).get(0).pause();
+		$('#sleaze-info').show();
+	});
+	$(sleazeVid).mouseout(function() {
+		$(this).css('opacity', '1');
+		$(this).get(0).play();
+		$('#sleaze-info').hide();
+	});
 });
