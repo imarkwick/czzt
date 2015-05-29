@@ -42,13 +42,22 @@ aside.info-box {
 	margin-top: 2rem;
 }
 
-@media only screen and (max-width: 1242px) {
-	video.all-vids {
-		display: none;
+@media only screen and (max-width: 590px) {
+	video.all-vids{
+	display: none;
 	}
-
-	img.work-images {
-		display: block;
+	h2#work-title {
+	margin-bottom: .5rem;
+	}
+	img.work-images{
+	display: block;
+	}
+	img#joelogo{
+  width: 9.5rem;
+  height: 8rem;
+	}
+	li#joeli{
+		padding:0;
 	}
 }
 

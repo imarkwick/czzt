@@ -32,9 +32,10 @@ img.icons:hover {
 	opacity: .5;
 }
 
-@media only screen and (max-width: 1242px) {
+@media only screen and (max-width: 590px) {
   
   h2#about-us {
+  	margin-top: 2.5rem;
     margin-bottom: 1rem;
   }
 
