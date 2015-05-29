@@ -26,4 +26,29 @@ $(document).ready(function() {
 	  $("#clare").fadeIn(4000);
 	  1000
 	});
+
+	var joeVid = document.getElementById('joe');
+	var apparelVid = document.getElementById('engapparel');
+	$(joeVid).hover(function() {
+		$(this).css('opacity', '.4');
+		$(this).get(0).pause();
+		$('#joe-info').show();
+	});
+	$(joeVid).mouseout(function() {
+		$(this).css('opacity', '1');
+		$(this).get(0).play();
+		$('#joe-info').hide();
+	});
+	$(apparelVid).hover(function() {
+		$(this).css('opacity', '.4');
+		$(this).get(0).pause();
+		$('#apparel-info').show();
+	});
+	$(apparelVid).mouseout(function() {
+		$(this).css('opacity', '1');
+		$(this).get(0).play();
+		$('#apparel-info').hide();
+	});
+
+
 });
