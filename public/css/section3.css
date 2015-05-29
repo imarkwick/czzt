@@ -63,10 +63,11 @@ p.hidden-p{
 	}
 	img.work-images{
 	display: block;
+	height: 5rem;
 	}
 	img#joelogo{
-  width: 9.5rem;
-  height: 8rem;
+  width: 7.5rem;
+  height: 6rem;
 	}
 	li#joeli{
 		padding:0;
