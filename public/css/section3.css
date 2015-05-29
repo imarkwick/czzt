@@ -38,6 +38,7 @@ img.work-images{
 	display: none;
 	}
 li {	
+			padding-bottom: .5rem;
 	    border-bottom: 1px solid black
 }
 	img.work-images{
