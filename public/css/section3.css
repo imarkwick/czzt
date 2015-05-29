@@ -33,7 +33,7 @@ img.work-images{
 }
 
 
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 590px) {
 	video.all-vids{
 	display: none;
 	}
