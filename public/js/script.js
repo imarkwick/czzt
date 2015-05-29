@@ -32,7 +32,7 @@ $(document).ready(function() {
 	var oodlsVid = document.getElementById('oodls');
 	var sleazeVid = document.getElementById('sleaze');
 	$(joeVid).hover(function() {
-		$(this).css('opacity', '.4');
+		$(this).css('opacity', '.3');
 		$(this).get(0).pause();
 		$('#joe-info').show();
 	});
@@ -42,7 +42,7 @@ $(document).ready(function() {
 		$('#joe-info').hide();
 	});
 	$(apparelVid).hover(function() {
-		$(this).css('opacity', '.4');
+		$(this).css('opacity', '.3');
 		$(this).get(0).pause();
 		$('#apparel-info').show();
 	});
@@ -52,7 +52,7 @@ $(document).ready(function() {
 		$('#apparel-info').hide();
 	});
 	$(oodlsVid).hover(function() {
-		$(this).css('opacity', '.4');
+		$(this).css('opacity', '.3');
 		$(this).get(0).pause();
 		$('#oodls-info').show();
 	});
@@ -62,7 +62,7 @@ $(document).ready(function() {
 		$('#oodls-info').hide();
 	});
 	$(sleazeVid).hover(function() {
-		$(this).css('opacity', '.4');
+		$(this).css('opacity', '.3');
 		$(this).get(0).pause();
 		$('#sleaze-info').show();
 	});

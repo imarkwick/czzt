@@ -42,19 +42,43 @@ aside.info-box {
 	margin-top: 2rem;
 }
 
+h4{
+	font-family: 'Roboto', sans-serif;
+
+}
+
+p.show-p{
+	font-family: 'Roboto', sans-serif;
+  font-weight: bolder;
+}
+
+p.hidden-p{
+	display: none;
+	font-family: 'Roboto', sans-serif;
+}
+
 @media only screen and (max-width: 590px) {
 	video.all-vids{
 	display: none;
 	}
+	p.show-p{
+		display: none;
+	}
+	p.hidden-p{
+	font-family: 'Roboto', sans-serif;
+	display: block;
+	}
+
 	h2#work-title {
 	margin-bottom: .5rem;
 	}
 	img.work-images{
 	display: block;
+	height: 3rem;
 	}
 	img#joelogo{
-  width: 9.5rem;
-  height: 8rem;
+  width: 5.5rem;
+  height: 4rem;
 	}
 	li#joeli{
 		padding:0;
