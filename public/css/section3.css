@@ -38,10 +38,17 @@ img.work-images{
 	display: none;
 	}
 	h2#work-title {
-	margin-bottom: 1rem;
+	margin-bottom: .5rem;
 	}
 	img.work-images{
-		display: block;
+	display: block;
+	}
+	img#joelogo{
+  width: 9.5rem;
+  height: 8rem;
+	}
+	li#joeli{
+		padding:0;
 	}
 }
 
