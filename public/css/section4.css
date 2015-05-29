@@ -1,4 +1,4 @@
-div#four{
+div#four {
 	background-image: url(../images/waterback.jpg);
 	height: 100%;
 	width: 100%;
@@ -14,7 +14,7 @@ h3#number {
 	opacity: .7;
 }
 
-h2#contact{
+h2#contact {
 	font-family: 'Roboto', sans-serif;
 	text-align: center; 
 	margin-bottom: 2rem;
@@ -25,13 +25,13 @@ h2#contact{
 
 @media only screen and (max-width: 590px) {
 	section#emailform{
-  margin-left: 1rem;
-  margin-right: 1rem;
+	  margin-left: 1rem;
+	  margin-right: 1rem;
 	}
 
 	h2#contact{
-	margin-top:0rem;
-	padding-top: 0rem;
+		margin-top:0rem;
+		padding-top: 0rem;
 	}
 	#form-main{
 		padding-top: 0;
