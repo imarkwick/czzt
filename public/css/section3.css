@@ -21,17 +21,26 @@ ul {
 	text-align: center;
 }
 
-video.all-vids{
+video.all-vids {
 	height: 15rem;
 }
 
-img.work-images{
+img.work-images {
 	display: none;
   height: 5rem;
   margin-left: auto;
   margin-right: auto;
 }
 
+aside.info-box {
+	font-family: 'Roboto', sans-serif;
+	height: 15rem;
+	z-index: 10;
+	position: fixed;
+	width: 31rem;
+	display: none;
+	margin-top: 2rem;
+}
 
 @media only screen and (max-width: 590px) {
 	video.all-vids{
