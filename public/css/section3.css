@@ -27,6 +27,22 @@ video.all-vids{
 
 img.work-images{
 	display: none;
+    height: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+@media only screen and (max-width: 1242px) {
+	video.all-vids{
+	display: none;
+	}
+li {	
+	    border-bottom: 1px solid black
+}
+	img.work-images{
+		display: block;
+	}
 }
 
 

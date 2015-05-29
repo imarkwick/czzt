@@ -38,6 +38,10 @@ img.icons:hover {
     margin-bottom: 1rem;
   }
 
+  p#about-blurb {
+  		line-height: 2rem;
+  }
+
   img.icons {
   	height: 4rem;
   	width: 4rem;
