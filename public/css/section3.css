@@ -42,8 +42,19 @@ aside.info-box {
 	margin-top: 2rem;
 }
 
+h4{
+	font-family: 'Roboto', sans-serif;
+
+}
+
+p.show-p{
+	font-family: 'Roboto', sans-serif;
+  font-weight: bolder;
+}
+
 p.hidden-p{
 	display: none;
+	font-family: 'Roboto', sans-serif;
 }
 
 @media only screen and (max-width: 590px) {
