@@ -42,10 +42,22 @@ aside.info-box {
 	margin-top: 2rem;
 }
 
+p.hidden-p{
+	display: none;
+}
+
 @media only screen and (max-width: 590px) {
 	video.all-vids{
 	display: none;
 	}
+	p.show-p{
+		display: none;
+	}
+	p.hidden-p{
+	font-family: 'Roboto', sans-serif;
+	display: block;
+	}
+
 	h2#work-title {
 	margin-bottom: .5rem;
 	}
