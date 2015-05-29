@@ -55,7 +55,7 @@ p.show-p{
 p.hidden-p{
 	display: none;
 	font-family: 'Roboto', sans-serif;
-}
+	}
 
 @media only screen and (max-width: 590px) {
 	video.all-vids{
@@ -80,8 +80,8 @@ p.hidden-p{
   width: 5.5rem;
   height: 4rem;
 	}
-	li#joeli{
-		padding:0;
+	li.projects{
+		padding-bottom:0;
 	}
 }
 
