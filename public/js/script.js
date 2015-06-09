@@ -36,9 +36,9 @@ $(document).ready(function() {
 		$(this).get(0).pause();
 		$('#joe-info').show();
 	});
-	$(joeVid).mouseout(function() {
-		$(this).css('opacity', '1');
-		$(this).get(0).play();
+	$('#joe-info').mouseout(function() {
+		$(joeVid).css('opacity', '1');
+		$(joeVid).get(0).play();
 		$('#joe-info').hide();
 	});
 	$(apparelVid).hover(function() {
@@ -46,9 +46,9 @@ $(document).ready(function() {
 		$(this).get(0).pause();
 		$('#apparel-info').show();
 	});
-	$(apparelVid).mouseout(function() {
-		$(this).css('opacity', '1');
-		$(this).get(0).play();
+	$('#apparel-info').mouseout(function() {
+		$(apparelVid).css('opacity', '1');
+		$(apparelVid).get(0).play();
 		$('#apparel-info').hide();
 	});
 	$(oodlsVid).hover(function() {
@@ -56,9 +56,9 @@ $(document).ready(function() {
 		$(this).get(0).pause();
 		$('#oodls-info').show();
 	});
-	$(oodlsVid).mouseout(function() {
-		$(this).css('opacity', '1');
-		$(this).get(0).play();
+	$('#oodls-info').mouseout(function() {
+		$(oodlsVid).css('opacity', '1');
+		$(oodlsVid).get(0).play();
 		$('#oodls-info').hide();
 	});
 	$(sleazeVid).hover(function() {
@@ -66,9 +66,9 @@ $(document).ready(function() {
 		$(this).get(0).pause();
 		$('#sleaze-info').show();
 	});
-	$(sleazeVid).mouseout(function() {
-		$(this).css('opacity', '1');
-		$(this).get(0).play();
+	$('#sleaze-info').mouseout(function() {
+		$(sleazeVid).css('opacity', '1');
+		$(sleazeVid).get(0).play();
 		$('#sleaze-info').hide();
 	});
 });
