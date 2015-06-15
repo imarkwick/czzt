@@ -1,0 +1,13 @@
+h2#project {
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	margin-bottom: 1rem;
+	margin-top: 2rem;
+}
+
+p#description {
+	font-family: 'Roboto', sans-serif;
+	line-height: 3rem;
+	text-align: center;
+	letter-spacing: .1rem;
+}
