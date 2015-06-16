@@ -11,3 +11,21 @@ p#description {
 	text-align: center;
 	letter-spacing: .1rem;
 }
+
+#latest-videos{
+	display: -webkit-box;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#future-hope-display {
+	width: 28rem;
+	height: 19rem;
+  margin-left: 5rem;
+}
+
+#future-hope-controller {
+	width: 13rem;
+	margin-top: 3rem;
+}
