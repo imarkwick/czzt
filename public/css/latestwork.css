@@ -12,20 +12,64 @@ p#description {
 	letter-spacing: .1rem;
 }
 
-#latest-videos{
-	display: -webkit-box;
+#latest-video{
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
 }
 
 #future-hope-display {
-	width: 28rem;
-	height: 19rem;
-  margin-left: 5rem;
+	width: 34rem;
+	height: 18rem;
+	margin-left: 0rem;	
 }
 
 #future-hope-controller {
-	width: 13rem;
-	margin-top: 3rem;
+  width: 13rem;
+  margin-top: 1.5rem;
+  margin-left: 3rem;
+}
+
+h4.future-hope-titles {
+	display: inline-block;
+}
+
+h4#display{
+	float: left;
+  margin-left: 14rem;
+}
+
+h4#controller {
+	float: right;
+  margin-right: 11rem;
+}
+#future-hope-image {
+	display: none;
+}
+
+@media only screen and (max-width: 980px) {
+
+#future-hope-display{
+	display: none;
+}
+
+#future-hope-controller {
+	display: none;
+}
+
+h4.future-hope-titles {
+	display: none;
+}
+
+#future-hope-image {
+		display: block;
+		padding-left: 3rem;
+		padding-right: 3rem;
+	}
+p#description {
+	font-family: 'Roboto', sans-serif;
+	line-height: 1.5rem;
+	text-align: center;
+	letter-spacing: .1rem;
+}
 }

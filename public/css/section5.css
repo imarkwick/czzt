@@ -24,6 +24,7 @@ h2#contact {
 
 
 @media only screen and (max-width: 590px) {
+	
 	section#emailform{
 	  margin-left: 1rem;
 	  margin-right: 1rem;
@@ -36,4 +37,5 @@ h2#contact {
 	#form-main{
 		padding-top: 0;
 	}
+
 }
