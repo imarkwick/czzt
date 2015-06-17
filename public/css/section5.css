@@ -4,14 +4,22 @@ div#four {
 	width: 100%;
 }		
 
-h3#number {
+li.number {
 	font-family: 'Roboto', sans-serif;
 	text-align: center;
 	color: #fff;
-	padding-left: .5rem;
-	font-size: 1rem;
+	font-size: 1.5rem;
 	bottom: 0;
 	opacity: .7;
+	display: inline;
+}
+
+li#clare {
+	padding-left: 1rem;
+}
+
+ul#emails {
+  margin: 0;
 }
 
 h2#contact {
