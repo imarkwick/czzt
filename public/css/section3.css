@@ -32,24 +32,36 @@ img.work-images {
   margin-right: auto;
 }
 
-aside.info-box {
+h2.modalTitle {
 	font-family: 'Roboto', sans-serif;
-	height: 15rem;
-	z-index: 10;
-	position: fixed;
-	width: 31rem;
-	display: none;
-	margin-top: 2rem;
+	text-align: center;
 }
 
 h4 {
 	font-family: 'Roboto', sans-serif;
 }
 
+p.lead {
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+}
+
+p.blurb {
+	font-family: 'Roboto', sans-serif;
+	text-align: center;	
+}
+
+a.links {
+	font-family: 'Roboto', sans-serif;
+	display: block;
+	text-align: center;
+}
+
 p.show-p {
 	font-family: 'Roboto', sans-serif;
   font-weight: bolder;
 }
+
 
 p.hidden-p {
 	display: none;

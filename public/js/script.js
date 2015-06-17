@@ -26,49 +26,10 @@ $(document).ready(function() {
 	  $("#clare").fadeIn(4000);
 	  1000
 	});
-
-	var joeVid = document.getElementById('joe');
-	var apparelVid = document.getElementById('engapparel');
-	var oodlsVid = document.getElementById('oodls');
-	var sleazeVid = document.getElementById('sleaze');
-	$(joeVid).hover(function() {
-		$(this).css('opacity', '.3');
-		$(this).get(0).pause();
-		$('#joe-info').show();
-	});
-	$('#joe-info').mouseout(function() {
-		$(joeVid).css('opacity', '1');
-		$(joeVid).get(0).play();
-		$('#joe-info').hide();
-	});
-	$(apparelVid).hover(function() {
-		$(this).css('opacity', '.3');
-		$(this).get(0).pause();
-		$('#apparel-info').show();
-	});
-	$('#apparel-info').mouseout(function() {
-		$(apparelVid).css('opacity', '1');
-		$(apparelVid).get(0).play();
-		$('#apparel-info').hide();
-	});
-	$(oodlsVid).hover(function() {
-		$(this).css('opacity', '.3');
-		$(this).get(0).pause();
-		$('#oodls-info').show();
-	});
-	$('#oodls-info').mouseout(function() {
-		$(oodlsVid).css('opacity', '1');
-		$(oodlsVid).get(0).play();
-		$('#oodls-info').hide();
-	});
-	$(sleazeVid).hover(function() {
-		$(this).css('opacity', '.3');
-		$(this).get(0).pause();
-		$('#sleaze-info').show();
-	});
-	$('#sleaze-info').mouseout(function() {
-		$(sleazeVid).css('opacity', '1');
-		$(sleazeVid).get(0).play();
-		$('#sleaze-info').hide();
-	});
+	var videos = document.getElementsByClassName("all-vids");
+	if ($(".open").is(':visible')){
+		alert('open')
+	} else {
+		console.log("closed")
+	}
 });
