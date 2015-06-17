@@ -26,10 +26,16 @@ $(document).ready(function() {
 	  $("#clare").fadeIn(4000);
 	  1000
 	});
-	var videos = document.getElementsByClassName("all-vids");
-	if ($(".open").is(':visible')){
-		alert('open')
-	} else {
-		console.log("closed")
-	}
+
+  var videos = document.getElementsByClassName("work");
+  var modals = document.getElementsByClassName("reveal-modal");
+  $(videos).click(function() {
+    if ($(modals).is(':hidden')) {
+      for (i = 0; i < videos.length; i++) {
+        videos[i].pause();
+      }
+  	} else {
+  		console.log("modals are closed");
+  	};
+  });
 });

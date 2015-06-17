@@ -8,22 +8,22 @@ get '/' do
 	erb :index
 end
 
- post '/' do
-   Pony.mail({
+post '/' do
+  Pony.mail({
     :from =>params[:emailaddress],
     :subject =>params[:name],
     :body =>params[:body],  
-    :to =>'izzy@czzt.co.uk', 'clare@czzt.co.uk',
+    :to =>'clare@czzt.co.uk',
     :via =>:smtp,
     :via_options => {
-        :address => 'smtp.sendgrid.net',
-        :port => '587',
-        :user_name => ENV['SENDGRID_USERNAME'],
-        :password => ENV['SENDGRID_PASSWORD'],
-        :authentication => :plain,
-        :enable_starttls_auto => true,
-        :domain               => 'czzt.herokuapp.com',
-  }
-})
+      :address => 'smtp.sendgrid.net',
+      :port => '587',
+      :user_name => ENV['SENDGRID_USERNAME'],
+      :password => ENV['SENDGRID_PASSWORD'],
+      :authentication => :plain,
+      :enable_starttls_auto => true,
+      :domain               => 'czzt.herokuapp.com',
+    }
+  })
   redirect '/'
 end
