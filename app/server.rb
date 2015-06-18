@@ -13,7 +13,7 @@ end
     :from =>params[:emailaddress],
     :subject =>params[:name],
     :body =>params[:body],  
-    :to =>'izzy@czzt.co.uk', 'clare@czzt.co.uk',
+    :to =>'izzy@czzt.co.uk',
     :via =>:smtp,
     :via_options => {
         :address => 'smtp.sendgrid.net',
