@@ -8,7 +8,7 @@ get '/' do
 	erb :index
 end
 
- post '/' do
+post '/' do
    Pony.mail({
     :from =>params[:emailaddress],
     :subject =>params[:name],
@@ -23,7 +23,7 @@ end
         :authentication => :plain,
         :enable_starttls_auto => true,
         :domain               => 'czzt.herokuapp.com/'
-  }
-  redirect '/'
+    }
 })
+  redirect 'czzt.herokuapp.com'
 end
