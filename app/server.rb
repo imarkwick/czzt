@@ -18,11 +18,11 @@ end
     :via_options => {
         :address => 'smtp.sendgrid.net',
         :port => '587',
-        :user_name => ENV['SENDGRID_USERNAME'],
+        :user_name => ENV['SENDGRID_USERNAMAME'],
         :password => ENV['SENDGRID_PASSWORD'],
         :authentication => :plain,
         :enable_starttls_auto => true,
-        :domain               => 'czzt.herokuapp.com',
+        :domain               => 'http://czzt.herokuapp.com/'
   }
 })
   redirect '/'
