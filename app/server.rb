@@ -22,8 +22,8 @@ end
         :password => ENV['SENDGRID_PASSWORD'],
         :authentication => :plain,
         :enable_starttls_auto => true,
-        :domain               => 'http://czzt.herokuapp.com/'
+        :domain               => 'czzt.herokuapp.com/'
   }
-})
   redirect '/'
+})
 end
