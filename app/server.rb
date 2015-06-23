@@ -22,8 +22,8 @@ post '/' do
         :password => ENV['SENDGRID_PASSWORD'],
         :authentication => :plain,
         :enable_starttls_auto => true,
-        :domain               => 'czzt.herokuapp.com/'
+        :domain               => 'heroku.com'
     }
 })
-  redirect 'czzt.herokuapp.com'
+  redirect '/'
 end
