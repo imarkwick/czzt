@@ -13,17 +13,16 @@ post '/' do
     :from =>params[:emailaddress],
     :subject =>params[:name],
     :body =>params[:body],  
-    :to =>'clare@czzt.co.uk',
+    :to =>'us@czzt.co.uk',
     :via =>:smtp,
     :via_options => {
-      :address => 'smtp.sendgrid.net',
-      :port => '587',
-      :user_name => ENV['SENDGRID_USERNAME'],
-      :password => ENV['SENDGRID_PASSWORD'],
-      :authentication => :plain,
-      :enable_starttls_auto => true,
-      :domain               => 'czzt.herokuapp.com',
+        :address => 'smtp.sendgrid.net',
+        :port => '587',
+        :domain => 'herokuapp.czzt.co.uk',
+        :user_name => ENV['SENDGRID_USERNAMAME'],
+        :password => ENV['SENDGRID_PASSWORD'],
+        :authentication => :plain,
+        :enable_starttls_auto => true
     }
   })
-  redirect '/'
 end
